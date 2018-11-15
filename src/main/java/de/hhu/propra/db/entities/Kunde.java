@@ -16,6 +16,6 @@ public class Kunde {
     private String stadt;
     private Integer plz;
 
-    @OneToMany(cascade = CascadeType.ALL)
+    @OneToMany(cascade = CascadeType.ALL, fetch = FetchType.EAGER)
     List<Auto> autos;
 }
