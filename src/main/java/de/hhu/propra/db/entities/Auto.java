@@ -11,11 +11,9 @@ import javax.persistence.Id;
 public class Auto{
     @Id
     @GeneratedValue
-    long id;
+    private long id;
 
-    private String marke;
-
-    private String farbe;
-
-    private Integer hubraum;
+    String marke;
+    String farbe;
+    Integer hubraum;
 }

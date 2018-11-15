@@ -17,5 +17,5 @@ public class Kunde {
     private Integer plz;
 
     @OneToMany(cascade = CascadeType.ALL)
-    private List<Auto> autos;
+    List<Auto> autos;
 }
